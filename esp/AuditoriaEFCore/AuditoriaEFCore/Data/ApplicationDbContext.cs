@@ -32,7 +32,7 @@ namespace AuditoriaEFCore.Data
         {
             var horaActual = DateTimeOffset.UtcNow;
             foreach (var item in ChangeTracker.Entries()
-                .Where(predicate: e => e.State == EntityState.Added && e.Entity is Entidad))
+                .Where(e => e.State == EntityState.Added && e.Entity is Entidad))
             {
                 var entidad = item.Entity as Entidad;
                 entidad.FechaCreacion = horaActual;
@@ -42,7 +42,7 @@ namespace AuditoriaEFCore.Data
             }
 
             foreach (var item in ChangeTracker.Entries()
-                .Where(predicate: e => e.State == EntityState.Modified && e.Entity is Entidad))
+                .Where(e => e.State == EntityState.Modified && e.Entity is Entidad))
             {
                 var entidad = item.Entity as Entidad;
                 entidad.FechaModificacion = horaActual;

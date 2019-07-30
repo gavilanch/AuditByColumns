@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuditEFCore", "AuditEFCore\AuditEFCore.csproj", "{41EC0F0A-D69E-433C-8F30-F83E8F0ADB34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41EC0F0A-D69E-433C-8F30-F83E8F0ADB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41EC0F0A-D69E-433C-8F30-F83E8F0ADB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41EC0F0A-D69E-433C-8F30-F83E8F0ADB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41EC0F0A-D69E-433C-8F30-F83E8F0ADB34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07432285-F966-45AE-A861-65265139B585}
+	EndGlobalSection
+EndGlobal
